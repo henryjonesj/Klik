@@ -1,0 +1,146 @@
+div.sidebar
+{
+position:absolute;
+left:870px;
+top:228px;
+}
+
+div.counter
+{
+position:absolute;
+top:-140px;
+left:109px;
+font-family:tristan;
+font-size:18px;
+
+color:blue;
+}
+
+a
+{
+text-decoration:none;
+font-size:15px;
+color:white;
+}
+
+a:hover
+{
+color:blue;
+}
+
+
+	#moving_tab {
+		/* hide overlength child elements*/
+		overflow:hidden;
+		
+		/* all the child elements are refering to this width */
+		width:300px;
+
+		/* fix ie 6 overflow bug */
+		position:relative
+		
+		/* styling */
+			
+		margin:0 auto;
+	}
+	
+		#moving_tab .tabs {
+			/* enable absolute position for .lava */
+			position:relative;	
+			height:25px;
+			-webkit-border-radius: 20px 20px 20px 20px;-moz-border-radius: 20px 20px 20px 20px;border-radius: 20px 20px 20px 20px;
+			
+			/* styling */
+			padding-top:5px;
+			cursor:default;
+			background-image:url("../images1/bi.jpg");
+		}
+	
+		#moving_tab .tabs .item {
+			/* enable z-index */
+			position:relative;
+			z-index:10;
+		
+			/* display in one row */
+			float:left;
+			display:block;
+			color:white;
+
+			/* width = half size of #moving_tab */
+			width:150px;
+			
+			/* height = height of .tabs */
+			text-align:left;
+			font-size:14px;
+			font-weight:700;	
+		}
+
+		#moving_tab .tabs .lava {
+			/* Set it to absolute */
+			position:absolute;
+			top:0; left:0;
+			
+			/* display the lava in bottom most layer */
+			z-index:0;		
+				
+			/* width = half size of #moving_tab */
+			width:150px;
+
+			/* height = height of .tabs */
+			height:30px;
+			
+			/* styling */
+			
+			background-image:url("../images1/tab2.gif");
+			-webkit-border-radius: 20px 20px 20px 20px;-moz-border-radius: 20px 20px 20px 20px;border-radius: 20px 20px 20px 20px;
+
+
+		}
+		
+		#moving_tab .content {
+			/* enable absolute position for .panel */	
+			position:relative;
+			overflow:hidden;
+			
+			/* styling */
+			background-image:url("../images1/bi.jpg");
+			border:2px solid white;
+			-webkit-border-radius: 20px 20px 20px 20px;-moz-border-radius: 20px 20px 20px 20px;border-radius: 20px 20px 20px 20px;
+		}
+		
+		#moving_tab .panel {
+			/* width is width of #moving_tab times 2 */
+			position:relative;
+			width:600px;
+			
+		}
+		
+		#moving_tab .panel ul {
+			/* display in one row */
+			float:left;
+			
+			/* width is the same with #moving_tab */
+			width:300px;
+			
+			/* remove all styles */
+			padding:0;
+			margin:0;
+			list-style:none;
+			
+
+		}
+			/* styling */
+			#moving_tab .panel ul li {
+				padding:5px 0 5px 10px;	
+				border-bottom:1px solid white;
+-webkit-border-radius: 20px 20px 20px 20px;-moz-border-radius: 20px 20px 20px 20px;border-radius: 20px 20px 20px 20px;
+			
+				font-family:ALGERIAN;
+				font-size:20px;
+				
+			}
+			
+		
+		
+	
+	

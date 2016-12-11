@@ -1,0 +1,321 @@
+body
+{
+background-image:url("../images1/background.png");
+padding-left:100px;
+font-family:ALGERIAN;
+color:black;
+}
+
+submit
+{
+color:blue;
+}
+
+.welcme
+{
+position:relative;
+left:300px;
+font-size:17px;
+font-family:ALGERIAN;
+color:white;
+}
+
+#header
+{
+position:relative;
+top:-15px;
+left:240px;
+}
+
+
+#header ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+	}
+	#header li:hover
+	{
+
+background-image:url("../images1/tab2.gif");
+	}
+	
+	#header li {
+		float:left;
+		padding-left:25px;
+		padding-right:25px;
+			background-image:url("../images1/navi2.gif");
+		
+		
+		border-radius:30px;
+		padding-top:5px;
+		padding-bottom:8px;
+		
+	}
+	
+	#header a {
+		
+		text-decoration: none;
+		color:black;
+		display:block;
+		
+		
+	}
+	
+	#header a:hover {
+		}
+	
+	#header #selected {
+	}
+	
+	#header #selected a {
+		padding-bottom: 2px;
+		font-weight: bold;
+		
+	}
+
+	
+
+
+div.logo
+{
+
+}
+
+
+
+div.two1
+{
+float:left;
+height:200px;
+border:1px solid black;
+margin-left:100px;
+background-color:black;
+}
+div.whole
+{
+
+float:left;
+border:1px solid gainsboro;
+background-image:url("../images1/bi.jpg");
+-webkit-border-radius: 13px;-moz-border-radius: 13px;border-radius: 13px;
+
+height:900;
+width:1000;
+position:relative;
+
+
+
+}
+
+div.sidebar
+{
+position:relative;
+left:-30px;
+color:blue;
+}
+
+div.two2full
+{
+position:relative;
+left:30px;
+float:left;
+border:1px solid gainsboro;
+height:auto;
+width:1200;
+margin-left:20px;
+}
+
+label
+{
+width: 4em;
+float: left;
+
+margin-right: 0.5em;
+color:blue;
+
+}
+.submit input
+{
+margin-left: 4.5em;
+color: white;
+background: black;
+
+} 
+input
+{
+
+
+border: 1px solid black;
+
+}
+
+fieldset.tab
+{
+background-color:black;
+
+}
+
+div.slides
+{
+position:relative;
+left:215px;
+top:10px;
+}
+div.slides_e
+{
+position:relative;
+left:150px;
+top:-200px;
+}
+div.white
+{
+position:relative;
+top:-10px;
+left:158px;
+
+
+}
+fieldset
+{
+background-color:white;
+
+}
+fieldset.slide
+{
+
+background-image:url("../images1/background.png");
+width: 550px;
+ height: 250px;
+-webkit-border-radius: 40px 40px 40px 40px;-moz-border-radius: 40px 40px 40px 40px;border-radius: 40px 40px 40px 40px;
+}
+
+fieldset.slideb
+{
+
+background-image:url("../images1/background.png");
+width: 550px;
+ height: 350px;
+-webkit-border-radius: 40px 40px 40px 40px;-moz-border-radius: 40px 40px 40px 40px;border-radius: 40px 40px 40px 40px;
+}
+
+div.slideimg
+{
+padding-left:30px;
+padding-top:5px;
+}
+
+
+body {
+		font: small arial, helvetica, sans-serif;	     }
+	
+	
+	
+	
+	#content {
+		
+		
+		
+		padding-right:10px;
+		width:auto;
+		height:auto;
+		
+	}
+	
+	#content img
+	{
+	
+	margin:0;
+	}
+	#para
+	{
+		margin-left:40px;
+		height:auto;
+		width:540px;
+		padding: 4em;
+		font-family:tubular;	
+		margin-top:-20px;
+		line-height:250%;
+		
+	}
+	#paraa
+	{
+		margin-left:-40px;
+		height:auto;
+		position:relative;
+		top:-113px;
+		padding: 4em;
+		font-family:footlight mt light;	
+		margin-top:-20px;
+		line-height:250%;
+		
+	}
+	#paraimg
+	{
+	
+	float:right;
+	
+	position:relative;
+	top:130px;
+	left:-10px;
+	}
+	#pimg_e
+	{
+	float:right;
+	margin-top:60px;
+	position:relative;
+	left:-20px;
+	}
+	div.left
+	{
+	float:left;
+	position:relative;
+	left:30px;
+	}
+	div.imgs
+	{
+	height:100px;
+	width:100px;
+	border:1px solid black;
+	}
+div.scroll
+{
+padding-left:20px;
+margin-top:20px;
+margin-bottom
+
+}
+
+div.in-map
+{
+float:left;
+
+}
+
+div.mapimg
+{
+float:left;
+}
+
+#mapd
+{
+line-height:150%;
+float:left;
+margin-left:45px;
+font-family:footlight mt light;	
+font-size:13px;
+}
+
+#mapd2
+{
+line-height:150%;
+float:left;
+clear:both;
+margin-left:45px;
+font-family:footlight mt light;	
+font-size:13px;
+}
+div.desc
+{
+float:left;
+}
